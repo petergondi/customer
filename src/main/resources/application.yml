@@ -3,9 +3,9 @@ spring:
     name: customer
   datasource:
     username: 'user'
-    url: jdbc:postgresql://localhost:5432/customer
+    url: jdbc:postgresql://172.20.0.3:5432/customer
     password: 'admin'
-    jpa:
+  jpa:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.PostgreSQLDialect
